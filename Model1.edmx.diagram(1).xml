@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0faac3f2a4024bdc991c532fee310749" Name="Diagram1">
+        <EntityTypeShape EntityType="testdoanModel.DinhDangPhim" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="testdoanModel.KhachHang" Width="1.5" PointX="5.25" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="testdoanModel.LichChieu" Width="1.5" PointX="5.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="testdoanModel.LoaiManHinh" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="testdoanModel.NhanVien" Width="1.5" PointX="5.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="testdoanModel.Phim" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="testdoanModel.PhongChieu" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="testdoanModel.TaiKhoan" Width="1.5" PointX="8" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="testdoanModel.TheLoai" Width="1.5" PointX="1.5" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="testdoanModel.Ve" Width="1.5" PointX="7.5" PointY="6" IsExpanded="true" />
+        <AssociationConnector Association="testdoanModel.FK__DinhDangP__IDLoa__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="testdoanModel.FK__DinhDangP__IDPhi__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="testdoanModel.FK__LichChieu__IDDin__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="testdoanModel.FK__Ve__IDKhachHang__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="testdoanModel.FK__LichChieu__IDPho__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="testdoanModel.FK__Ve__IDLichChieu__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="testdoanModel.FK__PhongChie__IDMan__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="testdoanModel.FK__TaiKhoan__idNhan__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="testdoanModel.FK_Phim_TheLoai1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

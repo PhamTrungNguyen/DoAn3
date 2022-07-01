@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="148ea9f0d8ed40a796929486a9ffbaf9" Name="Diagram1">
+        <EntityTypeShape EntityType="PBL3QLRPModel.DinhDangPhim" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PBL3QLRPModel.KhachHang" Width="1.5" PointX="5.25" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PBL3QLRPModel.LichChieu" Width="1.5" PointX="5.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="PBL3QLRPModel.LoaiManHinh" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PBL3QLRPModel.NhanVien" Width="1.5" PointX="5.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="PBL3QLRPModel.Phim" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PBL3QLRPModel.PhongChieu" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PBL3QLRPModel.TaiKhoan" Width="1.5" PointX="8" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PBL3QLRPModel.TheLoai" Width="1.5" PointX="1.5" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PBL3QLRPModel.Ve" Width="1.5" PointX="7.5" PointY="6" IsExpanded="true" />
+        <AssociationConnector Association="PBL3QLRPModel.FK__DinhDangP__IDLoa__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="PBL3QLRPModel.FK__DinhDangP__IDPhi__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="PBL3QLRPModel.FK__LichChieu__IDDin__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="PBL3QLRPModel.FK__Ve__IDKhachHang__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="PBL3QLRPModel.FK__LichChieu__IDPho__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="PBL3QLRPModel.FK__Ve__IDLichChieu__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="PBL3QLRPModel.FK__PhongChie__IDMan__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="PBL3QLRPModel.FK__TaiKhoan__idNhan__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="PBL3QLRPModel.FK_Phim_TheLoai1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
